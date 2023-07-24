@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="/_autoindex/assets/css/autoindex.css" /><script src="/_autoindex/assets/js/tablesort.js"></script><script src="/_autoindex/assets/js/tablesort.number.js"></script><title>Index of /rao/neanderthals/</title></head>
+<body><div class="content"><h1>Index of /rao/neanderthals/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="ascending"><a class="name" href="?ND"  onclick="return false"">Name</a></th><th class="colname" data-sort-method="number"><a href="?MA"  onclick="return false"">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="?SA"  onclick="return false"">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/rao/"><img class="icon" src="/_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="*css"><a href="/rao/neanderthals/css/"><img class="icon" src="/_autoindex/assets/icons/folder-fill.svg" alt="Directory">css</a></td><td data-sort="96645651">2023-01-11 14:00</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*fonts"><a href="/rao/neanderthals/fonts/"><img class="icon" src="/_autoindex/assets/icons/folder-fill.svg" alt="Directory">fonts</a></td><td data-sort="96645655">2023-01-11 14:00</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*images"><a href="/rao/neanderthals/images/"><img class="icon" src="/_autoindex/assets/icons/folder-fill.svg" alt="Directory">images</a></td><td data-sort="96645673">2023-01-11 14:01</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="*js"><a href="/rao/neanderthals/js/"><img class="icon" src="/_autoindex/assets/icons/folder-fill.svg" alt="Directory">js</a></td><td data-sort="96644886">2023-01-11 13:48</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="index.html"><a href="/rao/neanderthals/index.html"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">index.html</a></td><td data-sort="1673445642">2023-01-11 14:00</td><td data-sort="40960">     40k</td></tr>
+<tr><td data-sort="our-team.html"><a href="/rao/neanderthals/our-team.html"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">our-team.html</a></td><td data-sort="1673445642">2023-01-11 14:00</td><td data-sort="32768">     32k</td></tr>
+<tr><td data-sort="pillars.html"><a href="/rao/neanderthals/pillars.html"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">pillars.html</a></td><td data-sort="1673445644">2023-01-11 14:00</td><td data-sort="40960">     40k</td></tr>
+<tr><td data-sort="story.html"><a href="/rao/neanderthals/story.html"><img class="icon" src="/_autoindex/assets/icons/file-text.svg" alt="[TXT]">story.html</a></td><td data-sort="1673445644">2023-01-11 14:00</td><td data-sort="36864">     36k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at vigosol.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>

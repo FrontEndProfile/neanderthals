@@ -1,0 +1,1102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap');
+@import url('swiper-bundle.min.css');
+@import 'bootstrap.min.css';
+
+@font-face {
+
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: #ECE6CB;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    min-width: 178px;
+    height: 48px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.cta-primary {
+    color: #FFFFFF;
+    background: #599387;
+
+}
+
+.cta-primary:hover {
+    color: #fff;
+    background: #357064;
+}
+
+.cta-outline-primary {
+
+    color: #599387;
+    border: 1px solid #599387;
+}
+
+.cta-outline-primary:hover {
+    background: #599387;
+    color: #fff;
+}
+
+.cta-secondary {
+    background: #E17F2E;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    z-index: 5;
+}
+
+/* Header */
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+header .navbar {
+    padding: 35px 0;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 0 26px;
+
+}
+
+header .navbar .navbar-nav .nav-item:last-of-type .nav-link {
+    padding-right: 0;
+}
+
+/* Hero Main */
+.hero-main {
+    min-height: 100vh;
+    background: url(../images/bgHero.png);
+    background-position: bottom center;
+    background-size: cover;
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+}
+
+.heroText {
+    text-align: center;
+}
+
+.heroText h1 {
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue';
+
+}
+
+.heroText h1 {
+    margin: 47px 0;
+}
+
+/* Foundation */
+.forundation .container {
+    margin-left: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.forundation {
+    padding: 100px 0;
+    position: relative;
+}
+
+
+.content h2 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 39px;
+}
+
+.content p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #848484;
+    margin-bottom: 25px;
+}
+
+.content .icon {
+    margin-bottom: 22px;
+}
+
+
+.forundation .cta {
+    display: flex;
+    align-items: center;
+    margin: 0 -12px;
+}
+
+.forundation .cta li {
+    padding: 0 12px;
+}
+
+.forundation .content {
+    padding-left: 96px;
+
+}
+
+.forundation .img-holder {
+    position: relative;
+}
+
+.forundation .img-holder .img-fluid {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+
+.forundation .hexa {
+    position: absolute;
+    top: 108px;
+    right: 108px;
+}
+
+.forundation .hexa2 {
+    position: absolute;
+    top: 300px;
+    left: 54px;
+}
+
+.forundation .star {
+    position: absolute;
+    top: 258px;
+    right: 9px;
+}
+
+.forundation .shapeFoundation {
+    position: absolute;
+    right: 0;
+    bottom: 158px;
+}
+
+.forundation .leftShadow {
+    position: absolute;
+    left: 0;
+    top: 76px;
+}
+
+/* Valueable Start */
+.caption {
+    text-align: center;
+}
+
+.caption .icon {
+    margin-bottom: 22px;
+}
+
+.caption h2 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 92%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.caption {
+    margin-bottom: 46px;
+}
+
+.card-story {
+    border-radius: 26px;
+    min-height: 361px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: center;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-story img {
+    border-radius: 26px;
+
+}
+
+.card-story .cardBody {
+    position: relative;
+    z-index: 5;
+}
+
+.card-story .cardBody h4 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+
+}
+
+.card-story .cardBody p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 284px;
+    margin: 0 auto 22px;
+
+}
+
+.card-story .cardBody .btn {
+    display: none;
+}
+
+.card-story .cardBody {
+    max-width: 284px;
+    margin: 0 auto;
+}
+
+.card-story .collapse:not(.show) {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.card-story .collapsing {
+    height: 100%;
+    overflow: hidden;
+    transition: height 0s ease !important;
+    transition: width 0s ease !important;
+
+}
+
+.card-story .collapsing .collapse-horizontal {
+    width: 100%;
+    height: 100%;
+    transition: width 0s ease !important;
+}
+
+.card-story .collapse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: #E17F2E;
+    border-radius: 26px;
+    padding: 40px;
+    overflow-y: auto;
+    transition: opacity 0.3s ease !important;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+
+}
+
+.storySlider .swiper-slide-active .card-story .collapse.show {
+    transition: opacity 0.3s ease !important;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.card-story::before {
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 151px);
+}
+
+.storySlider .control {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+
+.storySlider .swiper-button-next,
+
+.storySlider .swiper-button-prev {
+    position: static;
+    margin: 0 21px;
+    transform: none;
+    width: auto;
+    height: auto;
+}
+
+
+.storySlider .swiper-button-prev:after,
+.storySlider .swiper-button-next:after {
+    content: none;
+}
+
+.storySlider .swiper-slide-active .card-story {
+    min-height: 486px;
+}
+
+.storySlider .swiper-wrapper {
+    align-items: center;
+}
+
+.storySlider .swiper-slide-active .card-story .btn {
+    display: inline-flex;
+}
+
+.storySlider .swiper-slide.swiper-slide-active {
+    transform: scale(1.2);
+}
+
+.storySlider .swiper-slide-active .storyWrapper {
+
+    padding: 7px 32px;
+    background-image: url(../images/bgSlider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.storySlider .swiper-slide {
+    transform: scale(0.8);
+}
+
+.storySlider {
+    padding: 60px 0;
+}
+
+
+.storySlider .swiper-slide-active .card-story .cardBody {
+    transform: scale(0.8);
+}
+
+.card-story .collapse h4 {
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-story .collapse p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 179%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.card-story .collaspeBody {
+    transform: scale(0.8);
+}
+
+.valuable {
+    position: relative;
+    margin-top: 21px;
+}
+
+.valuable .rightShadow {
+    position: absolute;
+    right: 0;
+    top: -633px;
+}
+
+.valuable .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.valuable .oval {
+    position: absolute;
+    left: 75px;
+    bottom: 0;
+}
+
+/* Event */
+
+
+.event {
+    position: relative;
+}
+
+.event .container {
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+
+}
+
+.event .shape {
+    position: absolute;
+    right: 0;
+    top: -84px;
+}
+
+.event h2 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.event h2 img {
+    margin-right: 10px;
+}
+
+.event h2 span {
+    flex: 1;
+}
+
+.event .EventCount {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 60px;
+    color: #599387;
+
+
+}
+
+.eventText {
+    padding: 204px 0;
+}
+
+
+/* newsletter */
+.newsletter {
+    padding-bottom: 50px;
+    margin-top: -8%;
+    position: relative;
+    z-index: 1;
+}
+
+.newsletterCard {
+    background-image: url(../images/bgNewsletter.png);
+    background-position: bottom center;
+    background-size: cover;
+    padding: 59px 30px 74px;
+    text-align: center;
+    border-radius: 22px;
+    position: relative;
+}
+
+.newsletterCard .shape {
+    position: absolute;
+}
+
+.newsletterCard .shape1 {
+    bottom: 96px;
+    left: 93px;
+}
+
+.newsletterCard .shape2 {
+    bottom: 63px;
+    left: 155px;
+}
+
+
+.newsletterCard .shape3 {
+    top: 87px;
+    right: 122px;
+}
+
+.newsletterCard .shape4 {
+    top: 85px;
+    left: 173px;
+}
+
+.newsletterCard .shape5 {
+    top: 14px;
+    right: 364px;
+}
+
+.newsletterCard .shape6 {
+    bottom: 103px;
+    right: 164px;
+}
+
+.newsletterCard .shape7 {
+    bottom: -17px;
+    right: 37px;
+}
+
+.newsletterCard .icon {
+    margin-bottom: 21px;
+}
+
+.newsletterCard h2 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 92px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.newsletterCard p {
+    max-width: 426px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 179%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 28px;
+
+
+}
+
+.newsletterCard form {
+    display: flex;
+    max-width: 528px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.newsletterCard form .form-group {
+    flex: 1;
+}
+
+.newsletterCard form .form-group .form-control {
+    height: 48px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    border-radius: 213px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #E17F2E;
+    padding: 13px 21px;
+
+}
+
+.newsletterCard form .form-group .form-control::placeholder {
+    color: #E17F2E;
+}
+
+.newsletterCard form .form-group {
+    margin-right: 7px;
+}
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 17px;
+}
+
+.footer form {
+    display: flex;
+    max-width: 300px;
+}
+
+.footer form .form-group {
+    flex: 1;
+    max-width: 204px;
+}
+
+.footer form .form-control {
+    max-width: 204px;
+    border: 1px solid #E17F2E;
+    border-radius: 20px;
+    height: 40px;
+    border-radius: 100px 0 0 100px;
+    background: transparent;
+    padding: 11px 20px;
+
+}
+
+.footer form .form-control:focus {
+    border: 1px solid #E17F2E;
+    background: transparent;
+    box-shadow: none;
+
+}
+
+.footer form .btn {
+    min-width: 96px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 40px;
+    border-radius: 0 100px 100px 0;
+}
+
+
+footer {
+    padding: 14px 0;
+}
+
+footer .copyrights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+    border-top: 1px solid #979797;
+}
+
+footer .copyrights p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+    color: #000000;
+
+}
+
+footer .social-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer .social-footer li {
+    margin-left: 25px;
+}
+
+/* Team Page */
+
+.team-page header .navbar-brand img {
+    filter: invert(1) brightness(100%);
+}
+
+.team h2 {
+
+    font-size: 68px;
+    line-height: 88px;
+}
+
+.team {
+    padding: 155px 0;
+}
+
+.team .shape {
+    position: absolute;
+    left: 0;
+}
+
+.team-page header .navbar .navbar-nav .nav-item .nav-link {
+    color: #000000;
+}
+
+.team .shape2,
+.team .shape1 {
+    position: absolute;
+}
+
+.team .shape1 {
+    right: 0;
+    top: 0;
+}
+
+.team .shape2 {
+    left: 0;
+    top: 307px;
+}
+
+.team .ellipse {
+    position: absolute;
+    left: 96px;
+    top: 1063px;
+}
+
+.team .card-story .cardBody p {
+    font-weight: 700;
+}
+
+.team .card-story .cardBody h4 {
+    margin-bottom: 8px;
+}
+
+
+.story {
+    padding: 155px 0 0;
+    text-align: center;
+    background: url(../images/Bg-story.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.story .content h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 88%;
+    text-align: center;
+    margin-bottom: 31px;
+
+}
+
+.story .content {
+    max-width: 599px;
+    margin: 0 auto;
+}
+
+.story .content p {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.story .content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.storyPage .newsletter {
+    margin-top: 0;
+}
+
+.story .content img {
+    margin-bottom: 31px;
+
+}
+
+.footer a img {
+    height: 37px;
+}
+
+.storyPage .newsletter,
+.storyPage footer {
+    background: #1C1614;
+}
+
+
+.storyPage .copyrights p {
+    color: #FFFFFF;
+
+    opacity: 0.4;
+
+}
+
+.storyPage .copyrights .social-footer li a svg path {
+    fill: #fff;
+}
+
+.storyPage .copyrights {
+    border-color: #424242;
+    ;
+}
+
+.slider-sec {
+    background-color: #1C1614;
+    position: relative;
+}
+
+.slider-sec .image-holder {
+    text-align: center;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: none;
+}
+
+.image-holder {
+    position: relative;
+}
+
+.image-holder img {
+    height: 530px;
+    opacity: 0;
+    object-fit: cover;
+}
+
+.slider-card {
+    position: relative;
+    padding: 65px 20px 0;
+}
+
+.slider-sec .swiper-slide-active .image-holder::after {
+    content: '';
+    background-color: #000000;
+    border: 1px solid #E17F2E;
+    padding: 9px;
+    position: absolute;
+    bottom: -19px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.slider-card::after {
+    content: '';
+    background: #E17F2E;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    border-radius: 50%;
+}
+
+.slider-card::before {
+    content: '';
+    background-color: #E17F2E;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.slider-sec .swiper-slide-active .image-holder img {
+    opacity: 1;
+}
+
+.slider-card h2 {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue';
+    margin: 22px 0px 40px;
+}
+
+.slider-card p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 450px;
+    width: 100%;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: none;
+}
+
+.slider-sec .swiper-slide-active .slider-card p {
+    display: block;
+}
+
+.slider-sec .swiper-button-prev {
+    left: 15%;
+    right: auto;
+    width: 61px;
+    top: 31%;
+}
+
+.slider-sec .swiper-button-next {
+    right: 15%;
+    left: auto;
+    width: 61px;
+    top: 31%;
+}
+
+.slider-sec {
+    padding: 140px 0 160px;
+    position: relative;
+}
+
+.slider-sec .shadow-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.house-img {
+    position: relative;
+    z-index: 9999;
+    max-width: 728px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-box h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue';
+    color: #FFFFFF;
+}
+
+.pillars-sec {
+    padding: 97px 0 0px;
+    text-align: center;
+    background: url(../images/Bg-story.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.pillars-sec .house-img {
+    margin-top: 30px;
+}
+
+.pillars-sec .img-fluid {
+    position: relative;
+    z-index: 1;
+}
+
+.bottom-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0px;
+}
+
+.button-1 {
+    left: 94px;
+}
+
+.button-2 {
+    left: 208px;
+}
+
+.button-3 {
+    right: 207px;
+}
+
+.button-4 {
+    right: 93px;
+}
+
+.modal-button {
+    bottom: 123px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.modal {
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: transparent;
+    background-image: url(../images/modal-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border: 0;
+    height: 551px;
+}
+
+.btn-close {
+    background-image: url(../images/cross-icon.svg);
+    opacity: 1;
+    width: 4em;
+    height: 4em;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.modal p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #636060;
+    max-width: 550px;
+    width: 100%;
+    margin: 24px auto 0;
+}
+
+
+.grassImg {
+    position: relative;
+    z-index: 9999;
+}

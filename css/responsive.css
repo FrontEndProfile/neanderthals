@@ -1,0 +1,577 @@
+@media(min-width:1400px) {
+    .container {
+        max-width: 1304px;
+    }
+
+    .event .container,
+    .forundation .container {
+        max-width: calc(50vw + 639px);
+        padding: 0;
+    }
+
+    .team .container,
+    .valuable .container {
+        max-width: 1350px;
+        padding: 0;
+    }
+
+    .newsletter .container,
+    footer .container {
+        max-width: 1188px;
+    }
+}
+
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 723px;
+    }
+}
+
+
+@media(max-width:1399px) {
+
+    .event .container,
+    .forundation .container {
+        max-width: calc(50vw + 547px);
+        padding: 0;
+    }
+
+    .storySlider .swiper-slide-active .storyWrapper {
+        padding: 7px 8px;
+    }
+
+    .storySlider .swiper-slide-active .card-story {
+        min-height: 486px;
+    }
+
+    .card-story .collapse {
+        padding: 15px;
+    }
+
+    .card-story .cardBody {
+        max-width: 100%;
+    }
+
+    .image-holder img {
+        height: 390px
+    }
+
+    .slider-card h2 {
+        font-size: 48px;
+        line-height: 48px;
+        margin: 22px 0px;
+    }
+
+    .slider-sec {
+        padding: 100px 0;
+    }
+}
+
+@media(max-width:1199px) {
+    .forundation .content {
+        padding-left: 40px;
+    }
+
+    .event .container,
+    .forundation .container {
+        max-width: calc(50vw + 465px);
+        padding: 0;
+    }
+
+    .content h2 {
+        margin-bottom: 20px;
+    }
+
+    .storySlider .swiper-slide-active .card-story {
+        min-height: 360px;
+    }
+
+    .card-story .collapse {
+        padding: 15px;
+    }
+
+    .card-story .cardBody {
+        max-width: 100%;
+    }
+
+    .caption h2 {
+        font-size: 72px;
+    }
+
+    .event h2,
+    .event .EventCount {
+        font-size: 64px;
+    }
+
+    .event h2 {
+        margin-bottom: 22px;
+    }
+}
+
+
+@media(max-width:991px) {
+    .forundation .content {
+        padding: 0 1.5rem;
+        max-width: 720px;
+        margin: 30px auto 0;
+    }
+
+    .event .container,
+    .forundation .container {
+        max-width: 100%;
+    }
+
+    .valuable .shape {
+        max-width: 100px;
+    }
+
+    .storySlider .swiper-slide-active .card-story {
+        min-height: 470px;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler {
+        padding: 0;
+        box-shadow: none;
+        outline: none;
+    }
+
+    header .navbar-brand {
+        padding: 10px 0 !important;
+    }
+
+    .team-page .navbar-toggler svg path {
+        fill: #000;
+    }
+
+    header .navbar-collapse {
+        background: #000;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+        padding: 8px 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .team-page header .navbar .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .caption {
+        margin-bottom: 20px;
+    }
+
+    .team .shape {
+        max-width: 100px;
+    }
+
+    .team .ellipse {
+        position: absolute;
+        left: 96px;
+        top: 850px;
+    }
+
+    .newsletterCard h2 {
+        font-size: 60px;
+    }
+
+    .story .content h2 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width:767px) {
+    .eventText {
+        padding: 110px 0;
+    }
+
+    .event h2,
+    .event .EventCount {
+        font-size: 44px;
+        line-height: 1;
+    }
+
+    .event h2 img {
+        margin-right: 10px;
+        height: 44px;
+    }
+
+    .event h2 {
+        margin-bottom: 10px;
+    }
+
+    .newsletterCard .shape4 {
+        top: 85px;
+        left: 0;
+    }
+
+    .newsletterCard h2 {
+        font-size: 70px;
+        line-height: 1;
+    }
+
+    .newsletterCard .btn {
+        min-width: 150px;
+    }
+
+    .event .shape {
+        top: -52px;
+        max-width: 120px;
+    }
+
+    .slider-sec .swiper-button-prev {
+        left: 6%;
+    }
+
+    .slider-sec .swiper-button-next {
+        right: 6%;
+    }
+
+    .house-img .img-fluid {
+        max-width: 510px;
+    }
+
+    .pillars-sec .modal-button img {
+        max-width: 42px;
+    }
+
+    .button-1 {
+        left: 101px;
+    }
+
+    .modal-button {
+        bottom: 82px;
+    }
+
+    .button-2 {
+        left: 181px;
+    }
+
+    .button-3 {
+        right: 179px;
+    }
+
+    .button-4 {
+        right: 100px;
+    }
+
+    .pillars-sec {
+        padding-bottom: 30px;
+    }
+
+    header .navbar {
+        padding: 17px 0;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    .modal p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #636060;
+        max-width: 388px;
+        width: 100%;
+        margin: 15px auto 0;
+    }
+
+    .modal .img-fluid {
+        height: 30px;
+    }
+
+    .modal-dialog {
+        max-width: 528px;
+    }
+
+    .modal-header .btn-close {
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+        width: 30px;
+
+    }
+
+    .house-img {
+        max-width: 576px;
+    }
+}
+
+@media(max-width:575px) {
+
+    .modal-header .btn-close {
+        padding: 0 8px;
+    }
+
+    header .navbar {
+        padding: 18px 0;
+    }
+
+    .heroText h1 {
+        margin: 20px 0;
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .btn {
+        min-width: 142px;
+        height: 42px;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .forundation {
+        padding: 35px 0;
+    }
+
+    .content h2 {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .forundation .cta {
+        margin: 0 -6px;
+    }
+
+    .forundation .cta li {
+        padding: 0 6px;
+    }
+
+    .forundation .content {
+        padding: 0 1rem;
+    }
+
+    .content .icon {
+        margin-bottom: 10px;
+    }
+
+    .content h2 {
+        margin-bottom: 1rem;
+    }
+
+    .caption h2 {
+        font-size: 44px;
+    }
+
+    .valuable .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .storySlider .swiper-slide-active .card-story {
+        min-height: 358px;
+        max-width: 268px;
+        margin: 0 auto;
+    }
+
+    .card-story .collapse p {
+
+        font-size: 12px;
+    }
+
+    .storySlider .swiper-button-next img,
+    .storySlider .swiper-button-prev img {
+        height: 45px;
+    }
+
+    .storySlider .control {
+        margin-top: 50px;
+    }
+
+    .valuable .oval {
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        max-width: 15px;
+    }
+
+    .event h2,
+    .event .EventCount {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .event h2 img {
+        height: 28px;
+    }
+
+    .eventText {
+        padding: 70px 0;
+    }
+
+    .newsletterCard h2 {
+        font-size: 38px;
+        line-height: 1;
+    }
+
+    .newsletterCard form {
+        flex-direction: column;
+    }
+
+    .newsletterCard form .form-group {
+        margin: 0 0 15px;
+    }
+
+    .newsletterCard .shape6 {
+        bottom: 28px;
+        right: 15px;
+        max-width: 20px;
+    }
+
+    .newsletterCard .shape2 {
+        bottom: 30px;
+        left: 30px;
+        max-width: 35px;
+    }
+
+    .newsletterCard .shape3 {
+        top: 60px;
+        right: 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer form {
+        margin-top: 17px;
+    }
+
+    footer .copyrights {
+        flex-direction: column;
+    }
+
+    footer .copyrights p {
+        margin-bottom: 10px;
+    }
+
+    footer .social-footer li {
+        margin: 0 12px;
+    }
+
+    .team .ellipse {
+        position: absolute;
+        left: 30px;
+        top: 850px;
+        max-width: 19px;
+    }
+
+    .storySlider .swiper-button-next,
+    .storySlider .swiper-button-prev {
+        margin: 0 10px;
+    }
+
+    .image-holder img {
+        height: 258px;
+    }
+
+    .slider-sec {
+        padding: 50px 0;
+    }
+
+    .story {
+        padding: 109px 0 0;
+    }
+
+    .newsletterCard .btn {
+        height: 48px;
+    }
+
+    .modal p {
+        max-width: 261px;
+    }
+
+    .modal-header {
+        padding: 0;
+    }
+
+    .modal .text-center {
+        padding: 15px;
+    }
+
+    .modal .img-fluid {
+        height: 22px;
+    }
+
+    .modal p {
+        margin: 10px auto;
+        font-size: 12px;
+    }
+
+    .modal-dialog {
+        max-width: 360px;
+    }
+
+    .house-img .img-fluid {
+        max-width: 300px;
+    }
+
+    .pillars-sec {
+        padding-bottom: 0;
+    }
+
+    .pillars-sec .modal-button img {
+        max-width: 26px;
+    }
+
+    .modal-button {
+        bottom: 46px;
+    }
+
+    .button-1 {
+        left: 77px;
+    }
+
+    .button-3 {
+        right: 122px;
+    }
+
+    .button-2 {
+        left: 124px;
+    }
+
+    .button-4 {
+        right: 76px;
+    }
+
+    .house-img {
+        max-width: 375px;
+    }
+}
+
+
+@media(max-width:374px) {
+    .house-img .img-fluid {
+        max-width: 265px;
+    }
+
+    .house-img {
+        max-width: 320px;
+    }
+
+    .button-1 {
+        left: 61px;
+    }
+
+    .modal-button {
+        bottom: 41px;
+    }
+    .button-2 {
+        left: 103px;
+    }
+    .button-4 {
+        right: 60px;
+    }
+    .button-3 {
+        right: 101px;
+    }
+}
